@@ -1,0 +1,6 @@
+<!--miniprogram/pages/inputRecord/inputRecord.wxml-->
+<view class='container'>
+<view class='title'>
+  <text>请输入您的血压信息</text>
+</view>
+</view>

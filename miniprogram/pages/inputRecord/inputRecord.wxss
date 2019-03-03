@@ -1,0 +1,7 @@
+/* miniprogram/pages/inputRecord/inputRecord.wxss */
+.container {
+  color:#37474F;
+}
+.title {
+  margin: 100rpx 0 20rpx;
+}

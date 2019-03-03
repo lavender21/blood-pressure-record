@@ -1,0 +1,22 @@
+/* miniprogram/pages/queryHistory/queryHistory.wxss */
+.table {
+  width: 100%;
+}
+.table-head, .table-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16rpx 0;
+  background-color: #fff;
+}
+.table-row:nth-child(even) {
+  background-color: #E8F5E9;
+}
+.table-cell {
+  flex-basis: 20%;
+  text-align: center;
+  align-self: center;
+}
+.table-cell:nth-child(4) {
+  flex-basis: 40%;
+}

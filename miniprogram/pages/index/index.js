@@ -17,6 +17,21 @@ Page({
       })
       return
     }
+    // 获取openid
+    wx.cloud.callFunction({
+      name: 'login',
+      data: {},
+      success: res => {
+        console.log('[云函数] [login] user openid: ', res.result.openid)
+        app.globalData.openid = res.result.openid
+      },
+      fail: err => {
+        console.log('[云函数] [login] 调用失败: ', err)
+        wx.navigateTo({
+          url: '../deployFunctions/deployFunctions',
+        })
+      }
+    })
 
     // 获取用户信息
     wx.getSetting({
@@ -46,9 +61,16 @@ Page({
     }
   },
 
-  openRecordPage: function() {
+  openInputPage: function() {
     wx.navigateTo({
       url: '../inputRecord/inputRecord'
     })
+  },
+
+  openQueryPage: function() {
+    wx.navigateTo({
+      url: '../queryHistory/queryHistory'
+    })
   }
+
 })

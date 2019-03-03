@@ -1,0 +1,21 @@
+<!--miniprogram/pages/queryHistory/queryHistory.wxml-->
+<view class="container">
+  <view class="title">
+    <text>您的血压信息</text>
+  </view>
+  <view class="table">
+    <view class="table-head">
+      <text class="table-cell">高压</text>
+      <text class="table-cell">低压</text>
+      <text class="table-cell">脉搏</text>
+      <text class="table-cell">测量时间</text>
+    </view>
+    <view wx:for="{{historyData}}" wx:key="{{code}}" class="table-row">
+        <text class="table-cell">{{item.highPressure}}</text>
+        <text class="table-cell">{{item.lowPressure}}</text>
+        <text class="table-cell">{{item.pulse}}</text>
+        <text class="table-cell">{{item.date}}</text>
+    </view>
+  </view>
+  
+</view>

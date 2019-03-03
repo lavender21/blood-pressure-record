@@ -1,9 +1,4 @@
 /**index.wxss**/
-.title {
-  margin: 100rpx 0 20rpx;
-  color:#37474F;
-}
-
 .userinfo {
   width: 100%;
   display: flex;
@@ -27,6 +22,5 @@
   margin: 40rpx 0;
 }
 .btn-group .btn {
-  width: 400rpx;
-  font-size: 32rpx;
+  margin: 40rpx 0;
 }

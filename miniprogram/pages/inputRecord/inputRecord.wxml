@@ -3,4 +3,36 @@
 <view class='title'>
   <text>请输入您的血压信息</text>
 </view>
+<form class="form" bindsubmit="formSubmit" bindreset="formReset">
+  <view class="form-item"> 
+    <label class="form-label" for="highPressure">高压：</label>
+    <input 
+      class="input-text" 
+      type="text" 
+      name="highPressure" 
+      placeholder="120" />
+  </view>
+  <view class="form-item"> 
+    <label class="form-label" for="lowPressure">低压：</label>
+    <input 
+      class="input-text" 
+      type="text" 
+      name="lowPressure" 
+      placeholder="80" />
+  </view>
+  <view class="form-item"> 
+    <label class="form-label" for="pulse">脉搏：</label>
+    <input 
+      class="input-text" 
+      type="text" 
+      name="pulse" 
+      placeholder="65" />
+  </view>
+  <view class="form-item">
+    <button class="default btn" form-type="submit">保存</button>
+  </view>
+  <view class="form-item">
+    <button class="primary btn" form-type="reset">清空</button>
+  </view>
+</form>
 </view>

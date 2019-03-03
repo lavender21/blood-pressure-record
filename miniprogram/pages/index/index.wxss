@@ -28,9 +28,5 @@
 }
 .btn-group .btn {
   width: 400rpx;
-}
-.btn-group .record.btn {
-  background-color: #A5D6A7;
-  border: 1px solid #66BB6A;
-  color: #37474F;
+  font-size: 32rpx;
 }

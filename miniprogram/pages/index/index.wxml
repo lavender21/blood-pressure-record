@@ -14,6 +14,6 @@
   </view>
 
   <view class="btn-group">
-    <button class="record btn" bindtap="openRecordPage">记录血压</button>
+    <button class="default btn" bindtap="openRecordPage">记录血压</button>
   </view>
 </view>

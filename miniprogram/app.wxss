@@ -8,3 +8,17 @@ page {
   align-items: center;
   box-sizing: border-box;
 } 
+
+.btn {
+  font-size: 32rpx;
+  width: 400rpx;
+  color: #37474F;
+}
+.default.btn {
+  background-color: #A5D6A7;
+  border: 1px solid #66BB6A;
+}
+.primary.btn {
+  background-color: #FAFAFA;
+  border: 1px solid #C8E6C9;
+}

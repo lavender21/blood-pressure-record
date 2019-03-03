@@ -5,3 +5,17 @@
 .title {
   margin: 100rpx 0 20rpx;
 }
+.form {
+  margin: 50rpx 0;
+  font-size: 32rpx;
+}
+.form .form-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30rpx 0;
+}
+.form .input-text {
+  border-bottom: 1px solid #CFD8DC;
+  padding-left: 10rpx;
+}
